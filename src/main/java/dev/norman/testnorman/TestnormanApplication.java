@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class TestnormanApplication {
 
     public static void main(String[] args) {
+        SpringApplication.run(TestnormanApplication.class, args);
 
         Scanner scanner = new Scanner(System.in);
 
@@ -32,7 +33,5 @@ public class TestnormanApplication {
         double ergebnis =  (zahl1 + zahl2) / (zahl1 * zahl2);
 
         System.out.println("Ergebnis (z1+z2)/(z1*z2):" + ergebnis);
-
-        //SpringApplication.run(TestnormanApplication.class, args);
     }
 }
